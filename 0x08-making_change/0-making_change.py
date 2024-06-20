@@ -3,7 +3,7 @@
 """
 
 
-def make_change(coins, total):
+def makeChange(coins, total):
     if total <= 0:
         return 0
 
@@ -18,8 +18,3 @@ def make_change(coins, total):
 
     # Return the minimum number of coins required to reach the total value
     return min_coins[total] if min_coins[total] != float('inf') else -1
-
-
-# Test cases
-print(make_change([1, 2, 25], 37))
-print(make_change([1256, 54, 48, 16, 102], 1453))
