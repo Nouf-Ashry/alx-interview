@@ -40,7 +40,6 @@ def isWinner(x, nums):
 
     return None
 
-
 def is_prime(n):
     """Returns True if n is prime, else False."""
     if n < 2:
@@ -49,7 +48,6 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
-
 
 def primes_in_range(start, end):
     """Returns a list of prime numbers between start and end (inclusive)."""
